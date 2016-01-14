@@ -20,7 +20,7 @@ node {
     deploy 'staging'
 }
 
-input message: "Does ${jettyUrl}staging/ look good?"
+input message: "Does http://192.168.56.101:9081/staging/ look good?"
 
 stage name: 'Production', concurrency: 1
 node {
