@@ -1,5 +1,5 @@
 #!groovy
-jettyUrl = 'http://localhost:8081/'
+jettyUrl = 'http://193.168.56.101:8081/'
 
 stage 'Dev'
 node {
